@@ -1,0 +1,41 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# macOS
+.DS_Store
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# Build outputs
+.dist/
+dist/
+build/
+coverage/
+
+# Next.js
+.next/
+out/
+.vercel/
+
+# Hardhat
+artifacts/
+cache/
+# Keep deployments but ignore heavy solc inputs
+**/deployments/**/solcInputs/
+
+# TypeChain
+**/typechain-types/
+
+# Ensure nested node_modules are ignored
+**/node_modules/
