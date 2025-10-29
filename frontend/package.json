@@ -1,0 +1,32 @@
+{
+  "name": "time-maze-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "TimeMaze frontend with FHEVM (mock on localhost, relayer-sdk on Sepolia)",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "genabi": "node ./scripts/genabi.mjs"
+  },
+  "dependencies": {
+    "next": "^15.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "ethers": "^6.15.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "typescript": "^5.4.3",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^15.0.0",
+    "@zama-fhe/relayer-sdk": "^0.2.0",
+    "@fhevm/mock-utils": "^0.1.0"
+  }
+}
+
+
+
